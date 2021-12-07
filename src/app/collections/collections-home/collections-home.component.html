@@ -1,1 +1,9 @@
-<p>collections-home works!</p>
+<app-HDivider title="Table Compo Works"></app-HDivider>
+<app-tables classNames="stripped celled" [data]="data" [headers]="headers"></app-tables>
+<app-HDivider title="Tab Menu"></app-HDivider>
+<app-tabs>
+    <a routerLink="./" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}" class="item">Biography</a>
+    <a routerLink="companies" routerLinkActive="active" class="item">Companies</a>
+    <a routerLink="partners" routerLinkActive="active" class="item">Partners</a>
+
+</app-tabs>
